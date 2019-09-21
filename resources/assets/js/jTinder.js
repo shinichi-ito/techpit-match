@@ -6,7 +6,7 @@ var postReaction = function (to_user_id, reaction) {
     }
   });
   $.ajax({
-    type: "POST",  //vv
+    type: "POST",  //rennsyu
     url: "/api/like",
     data: {
       to_user_id: to_user_id,
